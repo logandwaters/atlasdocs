@@ -1,15 +1,38 @@
 site_name: Atlas
 site_url: https://home.serveratlas.online/
+
 theme:
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.footer
   name: material
   palette:
     scheme: slate
     primary: orange
+    accent: deep orange
+
 markdown_extensions:
   - admonition
   - pymdownx.details
+  - pymdownx.superfences
   - attr_list
   - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Welcome: index.md
+  - Getting Started:
+      - Overview: gettingstarted/overview.md
+      - Introduction to Plex: gettingstarted/introduction.md
+      - Install Plex: gettingstarted/installation.md
+      - Navigating Plex: gettingstarted/navigatingplex.md
+      - Introduction to Overseerr: gettingstarted/introductionoverseer.md
+      - Make Requests: gettingstarted/requests.md
+      - Navigating Overseer: gettingstarted/navigatingoverseer.md
+      - Service Expectations: gettingstarted/serviceexpectations.md
+  - Support: support.md
+  - Inviting Others: invitingothers.md
+  - Thank You: thanks.md
