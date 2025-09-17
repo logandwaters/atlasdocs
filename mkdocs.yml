@@ -3,7 +3,6 @@ site_url: https://home.serveratlas.online/
 
 theme:
   features:
-    - navigation.sections
     - navigation.indexes
     - navigation.footer
   name: material
@@ -36,3 +35,5 @@ nav:
   - Support: support.md
   - Inviting Others: invitingothers.md
   - Thank You: thanks.md
+  - Change Logs:
+      - September 20th, 2025: changelogs/01 - 2025-09-20 - changelog.md

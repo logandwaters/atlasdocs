@@ -19,3 +19,5 @@ Overseerr is the interface for requesting media. It allows media discovery and p
 **Typical timing:**
 
 - Many requests complete in a few hours; some are available within an hour. Other requests (obscure or poorly seeded content) may take days or never complete without manual assistance.
+
+![Plex Add to Watchlist](/assets/images/addtowatchlistprimary.png)
