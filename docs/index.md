@@ -14,6 +14,14 @@ Beyond its powerful media server, Plex also offers its own services you may enjo
 
 What makes Plex especially unique is the ability to stream content I personally own, all through their secure client. This allows me to share a completely free media library with you, powered by a technology called [torrenting](https://en.wikipedia.org/wiki/BitTorrent){:target="_blank" .btn}.
 
+## Status
+
+<iframe src="https://status.plex.tv/" 
+        width="100%" 
+        height="600" 
+        frameborder="0">
+</iframe>
+
 ## Quick Links
 
 <div class="grid cards" markdown>
